@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68A123D31C4B1C7A00EAB9B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A123D21C4B1C7A00EAB9B7 /* AppDelegate.m */; };
+		68A123D61C4B1C7A00EAB9B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A123D51C4B1C7A00EAB9B7 /* main.m */; };
+		68A123D81C4B1C7A00EAB9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A123D71C4B1C7A00EAB9B7 /* Assets.xcassets */; };
+		68A123DB1C4B1C7A00EAB9B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A123D91C4B1C7A00EAB9B7 /* MainMenu.xib */; };
+		CCD4654317223F1FB4B01BB6 /* libPods-Break5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C7A0ECCB2400089749AF6B /* libPods-Break5.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17C7A0ECCB2400089749AF6B /* libPods-Break5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Break5.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A123CE1C4B1C7A00EAB9B7 /* Break5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Break5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A123D11C4B1C7A00EAB9B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68A123D21C4B1C7A00EAB9B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68A123D51C4B1C7A00EAB9B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68A123D71C4B1C7A00EAB9B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68A123DA1C4B1C7A00EAB9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		68A123DC1C4B1C7A00EAB9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B94F5FC390BAFAAE84A219F /* Pods-Break5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Break5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Break5/Pods-Break5.debug.xcconfig"; sourceTree = "<group>"; };
+		EA95511066FF030B9ECD0AD2 /* Pods-Break5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Break5.release.xcconfig"; path = "Pods/Target Support Files/Pods-Break5/Pods-Break5.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68A123CB1C4B1C7A00EAB9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD4654317223F1FB4B01BB6 /* libPods-Break5.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68A123C51C4B1C7A00EAB9B7 = {
+			isa = PBXGroup;
+			children = (
+				68A123D01C4B1C7A00EAB9B7 /* Break5 */,
+				68A123CF1C4B1C7A00EAB9B7 /* Products */,
+				7F3F092EB762F95229AB0F1A /* Pods */,
+				F5D56977F9DFE9C74A17FB6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68A123CF1C4B1C7A00EAB9B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68A123CE1C4B1C7A00EAB9B7 /* Break5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68A123D01C4B1C7A00EAB9B7 /* Break5 */ = {
+			isa = PBXGroup;
+			children = (
+				68A123D11C4B1C7A00EAB9B7 /* AppDelegate.h */,
+				68A123D21C4B1C7A00EAB9B7 /* AppDelegate.m */,
+				68A123D71C4B1C7A00EAB9B7 /* Assets.xcassets */,
+				68A123D91C4B1C7A00EAB9B7 /* MainMenu.xib */,
+				68A123DC1C4B1C7A00EAB9B7 /* Info.plist */,
+				68A123D41C4B1C7A00EAB9B7 /* Supporting Files */,
+			);
+			path = Break5;
+			sourceTree = "<group>";
+		};
+		68A123D41C4B1C7A00EAB9B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68A123D51C4B1C7A00EAB9B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F3F092EB762F95229AB0F1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B94F5FC390BAFAAE84A219F /* Pods-Break5.debug.xcconfig */,
+				EA95511066FF030B9ECD0AD2 /* Pods-Break5.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5D56977F9DFE9C74A17FB6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17C7A0ECCB2400089749AF6B /* libPods-Break5.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68A123CD1C4B1C7A00EAB9B7 /* Break5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68A123DF1C4B1C7A00EAB9B7 /* Build configuration list for PBXNativeTarget "Break5" */;
+			buildPhases = (
+				7A51F048D248729F9F7AC5D8 /* Check Pods Manifest.lock */,
+				68A123CA1C4B1C7A00EAB9B7 /* Sources */,
+				68A123CB1C4B1C7A00EAB9B7 /* Frameworks */,
+				68A123CC1C4B1C7A00EAB9B7 /* Resources */,
+				550DABAD5C8E2AC975709B6A /* Embed Pods Frameworks */,
+				CBF3B8CC4227CC0BD530139D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Break5;
+			productName = Break5;
+			productReference = 68A123CE1C4B1C7A00EAB9B7 /* Break5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68A123C61C4B1C7A00EAB9B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Árni Jónsson";
+				TargetAttributes = {
+					68A123CD1C4B1C7A00EAB9B7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 68A123C91C4B1C7A00EAB9B7 /* Build configuration list for PBXProject "Break5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68A123C51C4B1C7A00EAB9B7;
+			productRefGroup = 68A123CF1C4B1C7A00EAB9B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68A123CD1C4B1C7A00EAB9B7 /* Break5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68A123CC1C4B1C7A00EAB9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A123D81C4B1C7A00EAB9B7 /* Assets.xcassets in Resources */,
+				68A123DB1C4B1C7A00EAB9B7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		550DABAD5C8E2AC975709B6A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Break5/Pods-Break5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A51F048D248729F9F7AC5D8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF3B8CC4227CC0BD530139D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Break5/Pods-Break5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68A123CA1C4B1C7A00EAB9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A123D61C4B1C7A00EAB9B7 /* main.m in Sources */,
+				68A123D31C4B1C7A00EAB9B7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68A123D91C4B1C7A00EAB9B7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A123DA1C4B1C7A00EAB9B7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68A123DD1C4B1C7A00EAB9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68A123DE1C4B1C7A00EAB9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68A123E01C4B1C7A00EAB9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B94F5FC390BAFAAE84A219F /* Pods-Break5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Break5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnij.Break5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68A123E11C4B1C7A00EAB9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA95511066FF030B9ECD0AD2 /* Pods-Break5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Break5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnij.Break5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68A123C91C4B1C7A00EAB9B7 /* Build configuration list for PBXProject "Break5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A123DD1C4B1C7A00EAB9B7 /* Debug */,
+				68A123DE1C4B1C7A00EAB9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68A123DF1C4B1C7A00EAB9B7 /* Build configuration list for PBXNativeTarget "Break5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A123E01C4B1C7A00EAB9B7 /* Debug */,
+				68A123E11C4B1C7A00EAB9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68A123C61C4B1C7A00EAB9B7 /* Project object */;
+}
