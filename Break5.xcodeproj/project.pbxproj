@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6869D2161C5056B1009C1625 /* break5.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6869D2151C5056B1009C1625 /* break5.rb */; };
 		68A123D31C4B1C7A00EAB9B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A123D21C4B1C7A00EAB9B7 /* AppDelegate.m */; };
 		68A123D61C4B1C7A00EAB9B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A123D51C4B1C7A00EAB9B7 /* main.m */; };
 		68A123D81C4B1C7A00EAB9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A123D71C4B1C7A00EAB9B7 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		17C7A0ECCB2400089749AF6B /* libPods-Break5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Break5.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6869D2151C5056B1009C1625 /* break5.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = break5.rb; sourceTree = "<group>"; };
 		68A123CE1C4B1C7A00EAB9B7 /* Break5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Break5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A123D11C4B1C7A00EAB9B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68A123D21C4B1C7A00EAB9B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		68A123C51C4B1C7A00EAB9B7 = {
 			isa = PBXGroup;
 			children = (
+				6869D2151C5056B1009C1625 /* break5.rb */,
 				68A123D01C4B1C7A00EAB9B7 /* Break5 */,
 				68A123CF1C4B1C7A00EAB9B7 /* Products */,
 				7F3F092EB762F95229AB0F1A /* Pods */,
@@ -157,6 +160,7 @@
 			files = (
 				68A123D81C4B1C7A00EAB9B7 /* Assets.xcassets in Resources */,
 				68A123DB1C4B1C7A00EAB9B7 /* MainMenu.xib in Resources */,
+				6869D2161C5056B1009C1625 /* break5.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

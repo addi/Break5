@@ -54,8 +54,6 @@
     NSString *outputString = [[NSString alloc] initWithData:outputData encoding:NSUTF8StringEncoding];
     
     NSLog(@"%@", outputString);
-    
-//    [self.outputTextField setString:outputString];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
