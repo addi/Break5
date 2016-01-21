@@ -59,7 +59,7 @@ end
 found_lines_to_block = comment_lines("/etc/hosts", "#break", "#/break")
 
 if found_lines_to_block
-	sleep(1 * 60)
+	sleep(5 * 60)
 
 	un_comment_lines("/etc/hosts", "#break", "#/break")
 end

@@ -23,8 +23,10 @@
 
 - (void)goOnBreak
 {
+    NSString *rubyFilePath = [[NSBundle mainBundle] pathForResource:@"break5" ofType:@"rb"];
+    
     [self runSTPrivilegedTask:@"/usr/bin/ruby"
-                    arguments:@[@"/Users/addi/bin/break5.rb"]];
+                    arguments:@[rubyFilePath]];
     
     [NSApp terminate:self];
 }
