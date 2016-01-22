@@ -11,7 +11,7 @@ Simply run Break 5 from spotlight and do whatever you have to do. After 5 minute
 
 # How it works
 
-Simply add *#break* and *#/break* above and below the sites you want to be able to unblock with Break 5 in your /etc/hosts file.
+Simply add **#break** and **#/break** above and below the sites you want to be able to unblock with Break 5 in your /etc/hosts file.
 
 ```
 ##
