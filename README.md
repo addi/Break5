@@ -9,6 +9,10 @@ However every now and then you need to unblock them: someone sends you a link, y
 
 Simply run Break 5 from spotlight and do whatever you have to do. After 5 minutes the sites will be blocked again and that’s how you know it’s time to get back to work.
 
+# Download
+
+You can get the app [here](/Break5.zip). But you will have to right click the app and select open for the first time, since the app is not code signed.
+
 # How it works
 
 Simply add **#break** and **#/break** above and below the sites you want to be able to unblock with Break 5 in your /etc/hosts file.
