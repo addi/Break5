@@ -5,7 +5,7 @@ Break 5 is a simple tool that comments out lines in your /etc/hosts file for 5 m
 
 Sometimes is hard to get stuff done when procrastination is only a single click away. The more tech-savvy of us have started adding productivity draining websites to the /etc/hosts file in order to block them.
 
-However every now and then you need to unblock them: someone sends you a link, you need to authenticate with facebook or just just need a break.
+However every now and then you need to unblock them: someone sends you a link, you need to authenticate with facebook, or just just need a break.
 
 Simply run Break 5 from spotlight and do whatever you have to do. After 5 minutes the sites will be blocked again and that’s how you know it’s time to get back to work.
 
@@ -38,3 +38,7 @@ fe80::1%lo0	localhost
 127.0.0.1	www.facebook.com
 #/break
 ```
+
+# Icon
+
+Icon design by [Siggi Eggertsson](http://www.siggieggertsson.com).
