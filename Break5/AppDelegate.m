@@ -18,7 +18,50 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    [self goOnBreak];
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    NSDate *lastBreak = [defaults valueForKey:@"lastBreak"];
+    
+    NSDate *now = [NSDate date];
+    
+    NSTimeInterval secondsBetween = [now timeIntervalSinceDate:lastBreak];
+
+    int minumumSecondsSinceLastBreak = 60 * 35;
+    
+    if (lastBreak == nil || secondsBetween >= minumumSecondsSinceLastBreak) {
+        NSDate *now = [NSDate date];
+        
+        [defaults setObject:now forKey:@"lastBreak"];
+        
+        [self goOnBreak];
+        
+        [NSApp terminate:self];
+    }
+    else {
+        int secondsUntilNextBreak = minumumSecondsSinceLastBreak - secondsBetween;
+        
+        int minutesUntilNextBreak = secondsUntilNextBreak / 60;
+        
+        int secondsAfterMintuesUntilNextBreak = secondsUntilNextBreak - minutesUntilNextBreak * 60;
+        
+        [self showAlertWithMinutesUntilNextBreak:minutesUntilNextBreak
+                           secondsUntilNextBreak:secondsAfterMintuesUntilNextBreak];
+        
+        [NSApp terminate:self];
+    }
+}
+
+- (void)showAlertWithMinutesUntilNextBreak:(int)minutesUntilNextBreak
+                     secondsUntilNextBreak:(int)secondsUntilNextBreak
+{
+    NSString *informativeText = [NSString stringWithFormat:@"Next break in %d:%02d minutes", minutesUntilNextBreak, secondsUntilNextBreak];
+    
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText:@"Too little time since your last break"];
+    [alert setInformativeText:informativeText];
+    [alert addButtonWithTitle:@"Ok"];
+    [alert runModal];
 }
 
 - (void)goOnBreak
@@ -27,8 +70,6 @@
     
     [self runSTPrivilegedTask:@"/usr/bin/ruby"
                     arguments:@[rubyFilePath]];
-    
-    [NSApp terminate:self];
 }
 
 - (void)runSTPrivilegedTask:(NSString *)path
