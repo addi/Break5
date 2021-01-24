@@ -56,10 +56,22 @@ def un_comment_lines(host_path, break_start_tag, break_end_tag)
 	return false
 end
 
-found_lines_to_block = comment_lines("/etc/hosts", "#break", "#/break")
+type = ARGV.length > 0 ? ARGV[0] : "break"
 
-if found_lines_to_block
-	sleep(5 * 60)
+break_length = ARGV.length == 2 ? ARGV[1].to_i : 5
+
+if type == "break"
+    comment_lines("/etc/hosts", "#break", "#/break")
+    
+	sleep(break_length * 60)
 
 	un_comment_lines("/etc/hosts", "#break", "#/break")
+end
+
+if type == "lock"
+    un_comment_lines("/etc/hosts", "#break", "#/break")
+end
+
+if type == "unlock"
+    comment_lines("/etc/hosts", "#break", "#/break")
 end

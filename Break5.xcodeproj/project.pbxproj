@@ -12,6 +12,24 @@
 		68A123D61C4B1C7A00EAB9B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A123D51C4B1C7A00EAB9B7 /* main.m */; };
 		68A123D81C4B1C7A00EAB9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A123D71C4B1C7A00EAB9B7 /* Assets.xcassets */; };
 		68A123DB1C4B1C7A00EAB9B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A123D91C4B1C7A00EAB9B7 /* MainMenu.xib */; };
+		68CBF00825BDD8A100FFA627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A123D51C4B1C7A00EAB9B7 /* main.m */; };
+		68CBF00925BDD8A100FFA627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A123D21C4B1C7A00EAB9B7 /* AppDelegate.m */; };
+		68CBF00B25BDD8A100FFA627 /* libPods-Break5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C7A0ECCB2400089749AF6B /* libPods-Break5.a */; };
+		68CBF00D25BDD8A100FFA627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A123D71C4B1C7A00EAB9B7 /* Assets.xcassets */; };
+		68CBF00E25BDD8A100FFA627 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A123D91C4B1C7A00EAB9B7 /* MainMenu.xib */; };
+		68CBF00F25BDD8A100FFA627 /* break5.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6869D2151C5056B1009C1625 /* break5.rb */; };
+		68CBF03E25BE31C500FFA627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A123D51C4B1C7A00EAB9B7 /* main.m */; };
+		68CBF03F25BE31C500FFA627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A123D21C4B1C7A00EAB9B7 /* AppDelegate.m */; };
+		68CBF04125BE31C500FFA627 /* libPods-Break5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C7A0ECCB2400089749AF6B /* libPods-Break5.a */; };
+		68CBF04325BE31C500FFA627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A123D71C4B1C7A00EAB9B7 /* Assets.xcassets */; };
+		68CBF04425BE31C500FFA627 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A123D91C4B1C7A00EAB9B7 /* MainMenu.xib */; };
+		68CBF04525BE31C500FFA627 /* break5.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6869D2151C5056B1009C1625 /* break5.rb */; };
+		68CBF05625BE324B00FFA627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A123D51C4B1C7A00EAB9B7 /* main.m */; };
+		68CBF05725BE324B00FFA627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A123D21C4B1C7A00EAB9B7 /* AppDelegate.m */; };
+		68CBF05925BE324B00FFA627 /* libPods-Break5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C7A0ECCB2400089749AF6B /* libPods-Break5.a */; };
+		68CBF05B25BE324B00FFA627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A123D71C4B1C7A00EAB9B7 /* Assets.xcassets */; };
+		68CBF05C25BE324B00FFA627 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A123D91C4B1C7A00EAB9B7 /* MainMenu.xib */; };
+		68CBF05D25BE324B00FFA627 /* break5.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6869D2151C5056B1009C1625 /* break5.rb */; };
 		CCD4654317223F1FB4B01BB6 /* libPods-Break5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C7A0ECCB2400089749AF6B /* libPods-Break5.a */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +43,12 @@
 		68A123D71C4B1C7A00EAB9B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68A123DA1C4B1C7A00EAB9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		68A123DC1C4B1C7A00EAB9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CBF01525BDD8A100FFA627 /* Break30.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Break30.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CBF01625BDD8A100FFA627 /* Break30-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Break30-Info.plist"; path = "/Users/addi/Development/Break5/Break30-Info.plist"; sourceTree = "<absolute>"; };
+		68CBF04B25BE31C500FFA627 /* Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CBF04C25BE31C500FFA627 /* Lock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Lock-Info.plist"; path = "/Users/addi/Development/Break5/Lock-Info.plist"; sourceTree = "<absolute>"; };
+		68CBF06325BE324B00FFA627 /* Unlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CBF06425BE324B00FFA627 /* Unlock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Unlock-Info.plist"; path = "/Users/addi/Development/Break5/Unlock-Info.plist"; sourceTree = "<absolute>"; };
 		6B94F5FC390BAFAAE84A219F /* Pods-Break5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Break5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Break5/Pods-Break5.debug.xcconfig"; sourceTree = "<group>"; };
 		EA95511066FF030B9ECD0AD2 /* Pods-Break5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Break5.release.xcconfig"; path = "Pods/Target Support Files/Pods-Break5/Pods-Break5.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +59,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCD4654317223F1FB4B01BB6 /* libPods-Break5.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CBF00A25BDD8A100FFA627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CBF00B25BDD8A100FFA627 /* libPods-Break5.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CBF04025BE31C500FFA627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CBF04125BE31C500FFA627 /* libPods-Break5.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CBF05825BE324B00FFA627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CBF05925BE324B00FFA627 /* libPods-Break5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				68A123CE1C4B1C7A00EAB9B7 /* Break5.app */,
+				68CBF01525BDD8A100FFA627 /* Break30.app */,
+				68CBF04B25BE31C500FFA627 /* Lock.app */,
+				68CBF06325BE324B00FFA627 /* Unlock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +118,9 @@
 				68A123D21C4B1C7A00EAB9B7 /* AppDelegate.m */,
 				68A123D71C4B1C7A00EAB9B7 /* Assets.xcassets */,
 				68A123D91C4B1C7A00EAB9B7 /* MainMenu.xib */,
+				68CBF01625BDD8A100FFA627 /* Break30-Info.plist */,
+				68CBF04C25BE31C500FFA627 /* Lock-Info.plist */,
+				68CBF06425BE324B00FFA627 /* Unlock-Info.plist */,
 				68A123DC1C4B1C7A00EAB9B7 /* Info.plist */,
 				68A123D41C4B1C7A00EAB9B7 /* Supporting Files */,
 			);
@@ -121,6 +175,66 @@
 			productReference = 68A123CE1C4B1C7A00EAB9B7 /* Break5.app */;
 			productType = "com.apple.product-type.application";
 		};
+		68CBF00525BDD8A100FFA627 /* Break30 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CBF01225BDD8A100FFA627 /* Build configuration list for PBXNativeTarget "Break30" */;
+			buildPhases = (
+				68CBF00625BDD8A100FFA627 /* Check Pods Manifest.lock */,
+				68CBF00725BDD8A100FFA627 /* Sources */,
+				68CBF00A25BDD8A100FFA627 /* Frameworks */,
+				68CBF00C25BDD8A100FFA627 /* Resources */,
+				68CBF01025BDD8A100FFA627 /* Embed Pods Frameworks */,
+				68CBF01125BDD8A100FFA627 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Break30;
+			productName = Break5;
+			productReference = 68CBF01525BDD8A100FFA627 /* Break30.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68CBF03B25BE31C500FFA627 /* Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CBF04825BE31C500FFA627 /* Build configuration list for PBXNativeTarget "Lock" */;
+			buildPhases = (
+				68CBF03C25BE31C500FFA627 /* Check Pods Manifest.lock */,
+				68CBF03D25BE31C500FFA627 /* Sources */,
+				68CBF04025BE31C500FFA627 /* Frameworks */,
+				68CBF04225BE31C500FFA627 /* Resources */,
+				68CBF04625BE31C500FFA627 /* Embed Pods Frameworks */,
+				68CBF04725BE31C500FFA627 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lock;
+			productName = Break5;
+			productReference = 68CBF04B25BE31C500FFA627 /* Lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68CBF05325BE324B00FFA627 /* Unlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CBF06025BE324B00FFA627 /* Build configuration list for PBXNativeTarget "Unlock" */;
+			buildPhases = (
+				68CBF05425BE324B00FFA627 /* Check Pods Manifest.lock */,
+				68CBF05525BE324B00FFA627 /* Sources */,
+				68CBF05825BE324B00FFA627 /* Frameworks */,
+				68CBF05A25BE324B00FFA627 /* Resources */,
+				68CBF05E25BE324B00FFA627 /* Embed Pods Frameworks */,
+				68CBF05F25BE324B00FFA627 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unlock;
+			productName = Break5;
+			productReference = 68CBF06325BE324B00FFA627 /* Unlock.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -140,6 +254,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -149,6 +264,9 @@
 			projectRoot = "";
 			targets = (
 				68A123CD1C4B1C7A00EAB9B7 /* Break5 */,
+				68CBF00525BDD8A100FFA627 /* Break30 */,
+				68CBF03B25BE31C500FFA627 /* Lock */,
+				68CBF05325BE324B00FFA627 /* Unlock */,
 			);
 		};
 /* End PBXProject section */
@@ -161,6 +279,36 @@
 				68A123D81C4B1C7A00EAB9B7 /* Assets.xcassets in Resources */,
 				68A123DB1C4B1C7A00EAB9B7 /* MainMenu.xib in Resources */,
 				6869D2161C5056B1009C1625 /* break5.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CBF00C25BDD8A100FFA627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CBF00D25BDD8A100FFA627 /* Assets.xcassets in Resources */,
+				68CBF00E25BDD8A100FFA627 /* MainMenu.xib in Resources */,
+				68CBF00F25BDD8A100FFA627 /* break5.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CBF04225BE31C500FFA627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CBF04325BE31C500FFA627 /* Assets.xcassets in Resources */,
+				68CBF04425BE31C500FFA627 /* MainMenu.xib in Resources */,
+				68CBF04525BE31C500FFA627 /* break5.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CBF05A25BE324B00FFA627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CBF05B25BE324B00FFA627 /* Assets.xcassets in Resources */,
+				68CBF05C25BE324B00FFA627 /* MainMenu.xib in Resources */,
+				68CBF05D25BE324B00FFA627 /* break5.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +328,141 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Break5/Pods-Break5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68CBF00625BDD8A100FFA627 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68CBF01025BDD8A100FFA627 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Break5/Pods-Break5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68CBF01125BDD8A100FFA627 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Break5/Pods-Break5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68CBF03C25BE31C500FFA627 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68CBF04625BE31C500FFA627 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Break5/Pods-Break5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68CBF04725BE31C500FFA627 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Break5/Pods-Break5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68CBF05425BE324B00FFA627 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68CBF05E25BE324B00FFA627 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Break5/Pods-Break5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68CBF05F25BE324B00FFA627 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Break5/Pods-Break5-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7A51F048D248729F9F7AC5D8 /* Check Pods Manifest.lock */ = {
@@ -221,6 +504,33 @@
 			files = (
 				68A123D61C4B1C7A00EAB9B7 /* main.m in Sources */,
 				68A123D31C4B1C7A00EAB9B7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CBF00725BDD8A100FFA627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CBF00825BDD8A100FFA627 /* main.m in Sources */,
+				68CBF00925BDD8A100FFA627 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CBF03D25BE31C500FFA627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CBF03E25BE31C500FFA627 /* main.m in Sources */,
+				68CBF03F25BE31C500FFA627 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CBF05525BE324B00FFA627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CBF05625BE324B00FFA627 /* main.m in Sources */,
+				68CBF05725BE324B00FFA627 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +633,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"B5TYPE=1",
+					"B5LENGTH=5",
+				);
 				INFOPLIST_FILE = Break5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arnij.Break5;
@@ -336,9 +652,125 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"B5TYPE=1",
+					"B5LENGTH=5",
+				);
 				INFOPLIST_FILE = Break5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arnij.Break5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68CBF01325BDD8A100FFA627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B94F5FC390BAFAAE84A219F /* Pods-Break5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"B5TYPE=1",
+					"B5LENGTH=30",
+				);
+				INFOPLIST_FILE = "Break30-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnij.Break30;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68CBF01425BDD8A100FFA627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA95511066FF030B9ECD0AD2 /* Pods-Break5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"B5TYPE=1",
+					"B5LENGTH=30",
+				);
+				INFOPLIST_FILE = "Break30-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnij.Break30;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68CBF04925BE31C500FFA627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B94F5FC390BAFAAE84A219F /* Pods-Break5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"B5TYPE=2",
+				);
+				INFOPLIST_FILE = "Lock-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnij.Break.Lock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68CBF04A25BE31C500FFA627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA95511066FF030B9ECD0AD2 /* Pods-Break5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"B5TYPE=2",
+				);
+				INFOPLIST_FILE = "Lock-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnij.Break.Lock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68CBF06125BE324B00FFA627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B94F5FC390BAFAAE84A219F /* Pods-Break5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"B5TYPE=3",
+				);
+				INFOPLIST_FILE = "Unlock-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnij.Break.Unlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68CBF06225BE324B00FFA627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA95511066FF030B9ECD0AD2 /* Pods-Break5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"B5TYPE=3",
+				);
+				INFOPLIST_FILE = "Unlock-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnij.Break.Unlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -360,6 +792,33 @@
 			buildConfigurations = (
 				68A123E01C4B1C7A00EAB9B7 /* Debug */,
 				68A123E11C4B1C7A00EAB9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CBF01225BDD8A100FFA627 /* Build configuration list for PBXNativeTarget "Break30" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CBF01325BDD8A100FFA627 /* Debug */,
+				68CBF01425BDD8A100FFA627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CBF04825BE31C500FFA627 /* Build configuration list for PBXNativeTarget "Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CBF04925BE31C500FFA627 /* Debug */,
+				68CBF04A25BE31C500FFA627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CBF06025BE324B00FFA627 /* Build configuration list for PBXNativeTarget "Unlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CBF06125BE324B00FFA627 /* Debug */,
+				68CBF06225BE324B00FFA627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

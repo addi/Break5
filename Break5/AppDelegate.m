@@ -9,6 +9,10 @@
 #import "AppDelegate.h"
 #import "STPrivilegedTask.h"
 
+#define MODE_BREAK 1
+#define MODE_LOCK 2
+#define MODE_UNLOCK 3
+
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
@@ -19,6 +23,44 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     
+    NSString *type = @"break";
+    int length = 5;
+    
+#if B5TYPE == MODE_LOCK
+    type = @"lock";
+#elif B5TYPE == MODE_UNLOCK
+    type = @"unlock";
+#endif
+    
+#ifdef B5LENGTH
+    length = B5LENGTH;
+#endif
+    
+    if([type isEqualToString:@"break"])
+        [self goOnBreak:type
+                 length:[@(length) stringValue]];
+    else
+        [self runScript:type
+                 length:[@(length) stringValue]];
+        
+    [NSApp terminate:self];
+}
+
+- (void)showAlertWithMinutesUntilNextBreak:(int)minutesUntilNextBreak
+                     secondsUntilNextBreak:(int)secondsUntilNextBreak
+{
+    NSString *informativeText = [NSString stringWithFormat:@"Next break in %d:%02d minutes", minutesUntilNextBreak, secondsUntilNextBreak];
+    
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText:@"Too little time since your last break"];
+    [alert setInformativeText:informativeText];
+    [alert addButtonWithTitle:@"Ok"];
+    [alert runModal];
+}
+
+- (void)goOnBreak:(NSString *)type
+           length:(NSString *)length
+{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
     NSDate *lastBreak = [defaults valueForKey:@"lastBreak"];
@@ -34,9 +76,8 @@
         
         [defaults setObject:now forKey:@"lastBreak"];
         
-        [self goOnBreak];
-        
-        [NSApp terminate:self];
+        [self runScript:type
+                 length:length];
     }
     else {
         int secondsUntilNextBreak = minumumSecondsSinceLastBreak - secondsBetween;
@@ -47,29 +88,16 @@
         
         [self showAlertWithMinutesUntilNextBreak:minutesUntilNextBreak
                            secondsUntilNextBreak:secondsAfterMintuesUntilNextBreak];
-        
-        [NSApp terminate:self];
     }
 }
 
-- (void)showAlertWithMinutesUntilNextBreak:(int)minutesUntilNextBreak
-                     secondsUntilNextBreak:(int)secondsUntilNextBreak
-{
-    NSString *informativeText = [NSString stringWithFormat:@"Next break in %d:%02d minutes", minutesUntilNextBreak, secondsUntilNextBreak];
-    
-    NSAlert *alert = [[NSAlert alloc] init];
-    [alert setMessageText:@"Too little time since your last break"];
-    [alert setInformativeText:informativeText];
-    [alert addButtonWithTitle:@"Ok"];
-    [alert runModal];
-}
-
-- (void)goOnBreak
+- (void)runScript:(NSString *)type
+           length:(NSString *)length
 {
     NSString *rubyFilePath = [[NSBundle mainBundle] pathForResource:@"break5" ofType:@"rb"];
-    
+        
     [self runSTPrivilegedTask:@"/usr/bin/ruby"
-                    arguments:@[rubyFilePath]];
+                    arguments:@[rubyFilePath, type, length]];
 }
 
 - (void)runSTPrivilegedTask:(NSString *)path
